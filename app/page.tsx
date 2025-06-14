@@ -1,5 +1,5 @@
 import FeaturesSection from "@/components/features-9";
-// import FooterSection from "@/components/footer";
+import FooterSection from "@/components/footer";
 import HeroSection from "@/components/hero-section";
 import IntegrationsSection from "@/components/integrations-5";
 import TestimonialsSection from "@/components/testimonials";
@@ -12,8 +12,7 @@ export default function Home() {
       <FeaturesSection />
       <IntegrationsSection />
       <TestimonialsSection />
-      {/* <FooterSection /> */}
-
+      <FooterSection />
     </>
   );
 }
